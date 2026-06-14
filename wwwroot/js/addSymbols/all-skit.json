@@ -1,0 +1,966 @@
+
+{
+  "Camera": {
+    "position": {
+      "x": -2121632.513158281,
+      "y": 4448176.571139041,
+      "z": 4035274.4550576005
+    },
+    "heading": 0.70859743557358,
+    "pitch": -0.046260371575746584,
+    "roll": 6.28318530507563,
+    "positionCartographic": {
+      "longitude": 2.01584723523093,
+      "latitude": 0.6893968768053681,
+      "height": 9.740282745034557
+    }
+  },
+  "SaveTime": "2024/8/16-17:12:21",
+  "SkitTreeCollection": {
+    "TreeGroup": [
+      {
+        "label": "全部小品",
+        "key": "0",
+        "children": [
+          {
+            "label": "单个添加",
+            "key": "1",
+            "children": [
+              {
+                "url": "./data/s3mLibrary/newTree/001_Platanus.s3mb",
+                "options": {
+                  "id": "point-1-addSymbol",
+                  "position": {
+                    "x": -2121653.5048458986,
+                    "y": 4448135.424642739,
+                    "z": 4035297.778721158
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "hpr": {
+                    "heading": 0.017453292519943295,
+                    "pitch": 0,
+                    "roll": 0
+                  },
+                  "sceneMode": 3
+                },
+                "label": "point-1",
+                "type": "point",
+                "key": "1-0-1"
+              },
+              {
+                "url": "./data/s3mLibrary/newTree/001_Platanus.s3mb",
+                "options": {
+                  "id": "point-2-addSymbol",
+                  "position": {
+                    "x": -2121655.161218721,
+                    "y": 4448138.808090239,
+                    "z": 4035293.203311769
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "hpr": {
+                    "heading": 0.017453292519943295,
+                    "pitch": 0,
+                    "roll": 0
+                  },
+                  "sceneMode": 3
+                },
+                "label": "point-2",
+                "type": "point",
+                "key": "1-0-2"
+              },
+              {
+                "url": "./data/s3mLibrary/newTree/001_Platanus.s3mb",
+                "options": {
+                  "id": "point-3-addSymbol",
+                  "position": {
+                    "x": -2121657.013181926,
+                    "y": 4448142.536469323,
+                    "z": 4035288.153536169
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "hpr": {
+                    "heading": 0.017453292519943295,
+                    "pitch": 0,
+                    "roll": 0
+                  },
+                  "sceneMode": 3
+                },
+                "label": "point-3",
+                "type": "point",
+                "key": "1-0-3"
+              },
+              {
+                "url": "./data/s3mLibrary/newTree/020_Salix.s3mb",
+                "options": {
+                  "id": "point-4-addSymbol",
+                  "position": {
+                    "x": -2121645.081608358,
+                    "y": 4448154.256063685,
+                    "z": 4035281.5807379615
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "hpr": {
+                    "heading": 0.017453292519943295,
+                    "pitch": 0,
+                    "roll": 0
+                  },
+                  "sceneMode": 3
+                },
+                "label": "point-4",
+                "type": "point",
+                "key": "1-0-4"
+              }
+            ]
+          },
+          {
+            "label": "沿线添加",
+            "key": "2",
+            "children": [
+              {
+                "label": "线集合-1",
+                "name": "polyline-1",
+                "key": "2-1",
+                "type": "polylineGroup",
+                "children": [
+                  {
+                    "url": "./data/s3mLibrary/newTree/001_Platanus.s3mb",
+                    "options": {
+                      "id": "polyline-1-0-addSymbol",
+                      "position": {
+                        "x": -2121661.2564953216,
+                        "y": 4448131.614030107,
+                        "z": 4035297.8857656736
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "hpr": {
+                        "heading": 0.017453292519943295,
+                        "pitch": 0,
+                        "roll": 0
+                      },
+                      "sceneMode": 3
+                    },
+                    "label": "line-1-0",
+                    "type": "polyline",
+                    "key": "2-1-0",
+                    "parentKey": "2-1"
+                  },
+                  {
+                    "url": "./data/s3mLibrary/newTree/001_Platanus.s3mb",
+                    "options": {
+                      "id": "polyline-1-1-addSymbol",
+                      "position": {
+                        "x": -2121669.22581088,
+                        "y": 4448128.012279057,
+                        "z": 4035297.6461577113
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "hpr": {
+                        "heading": 0.017453292519943295,
+                        "pitch": 0,
+                        "roll": 0
+                      },
+                      "sceneMode": 3
+                    },
+                    "label": "line-1-1",
+                    "type": "polyline",
+                    "key": "2-1-1",
+                    "parentKey": "2-1"
+                  },
+                  {
+                    "url": "./data/s3mLibrary/newTree/001_Platanus.s3mb",
+                    "options": {
+                      "id": "polyline-1-2-addSymbol",
+                      "position": {
+                        "x": -2121677.1951348674,
+                        "y": 4448124.410545682,
+                        "z": 4035297.4065658874
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "hpr": {
+                        "heading": 0.017453292519943295,
+                        "pitch": 0,
+                        "roll": 0
+                      },
+                      "sceneMode": 3
+                    },
+                    "label": "line-1-2",
+                    "type": "polyline",
+                    "key": "2-1-2",
+                    "parentKey": "2-1"
+                  },
+                  {
+                    "url": "./data/s3mLibrary/newTree/001_Platanus.s3mb",
+                    "options": {
+                      "id": "polyline-1-3-addSymbol",
+                      "position": {
+                        "x": -2121685.1645051064,
+                        "y": 4448120.80890927,
+                        "z": 4035297.1670626244
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "hpr": {
+                        "heading": 0.017453292519943295,
+                        "pitch": 0,
+                        "roll": 0
+                      },
+                      "sceneMode": 3
+                    },
+                    "label": "line-1-3",
+                    "type": "polyline",
+                    "key": "2-1-3",
+                    "parentKey": "2-1"
+                  },
+                  {
+                    "url": "./data/s3mLibrary/newTree/001_Platanus.s3mb",
+                    "options": {
+                      "id": "polyline-1-4-addSymbol",
+                      "position": {
+                        "x": -2121693.1337005026,
+                        "y": 4448117.206906303,
+                        "z": 4035296.927224585
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "hpr": {
+                        "heading": 0.017453292519943295,
+                        "pitch": 0,
+                        "roll": 0
+                      },
+                      "sceneMode": 3
+                    },
+                    "label": "line-1-4",
+                    "type": "polyline",
+                    "key": "2-1-4",
+                    "parentKey": "2-1"
+                  }
+                ]
+              },
+              {
+                "label": "线集合-2",
+                "name": "polyline-2",
+                "key": "2-2",
+                "type": "polylineGroup",
+                "children": [
+                  {
+                    "url": "./data/s3mLibrary/newTree/001_Platanus.s3mb",
+                    "options": {
+                      "id": "polyline-2-0-addSymbol",
+                      "position": {
+                        "x": -2121663.212610967,
+                        "y": 4448135.111261033,
+                        "z": 4035293.029448166
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "hpr": {
+                        "heading": 0.017453292519943295,
+                        "pitch": 0,
+                        "roll": 0
+                      },
+                      "sceneMode": 3
+                    },
+                    "label": "line-2-0",
+                    "type": "polyline",
+                    "key": "2-2-0",
+                    "parentKey": "2-2"
+                  },
+                  {
+                    "url": "./data/s3mLibrary/newTree/001_Platanus.s3mb",
+                    "options": {
+                      "id": "polyline-2-1-addSymbol",
+                      "position": {
+                        "x": -2121671.0502916193,
+                        "y": 4448131.452802426,
+                        "z": 4035292.9212604566
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "hpr": {
+                        "heading": 0.017453292519943295,
+                        "pitch": 0,
+                        "roll": 0
+                      },
+                      "sceneMode": 3
+                    },
+                    "label": "line-2-1",
+                    "type": "polyline",
+                    "key": "2-2-1",
+                    "parentKey": "2-2"
+                  },
+                  {
+                    "url": "./data/s3mLibrary/newTree/001_Platanus.s3mb",
+                    "options": {
+                      "id": "polyline-2-2-addSymbol",
+                      "position": {
+                        "x": -2121678.8879836104,
+                        "y": 4448127.794367589,
+                        "z": 4035292.8130944585
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "hpr": {
+                        "heading": 0.017453292519943295,
+                        "pitch": 0,
+                        "roll": 0
+                      },
+                      "sceneMode": 3
+                    },
+                    "label": "line-2-2",
+                    "type": "polyline",
+                    "key": "2-2-2",
+                    "parentKey": "2-2"
+                  },
+                  {
+                    "url": "./data/s3mLibrary/newTree/001_Platanus.s3mb",
+                    "options": {
+                      "id": "polyline-2-3-addSymbol",
+                      "position": {
+                        "x": -2121686.72566707,
+                        "y": 4448124.135914872,
+                        "z": 4035292.704912128
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "hpr": {
+                        "heading": 0.017453292519943295,
+                        "pitch": 0,
+                        "roll": 0
+                      },
+                      "sceneMode": 3
+                    },
+                    "label": "line-2-3",
+                    "type": "polyline",
+                    "key": "2-2-3",
+                    "parentKey": "2-2"
+                  },
+                  {
+                    "url": "./data/s3mLibrary/newTree/001_Platanus.s3mb",
+                    "options": {
+                      "id": "polyline-2-4-addSymbol",
+                      "position": {
+                        "x": -2121694.5633427347,
+                        "y": 4448120.47744581,
+                        "z": 4035292.5967148696
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "hpr": {
+                        "heading": 0.017453292519943295,
+                        "pitch": 0,
+                        "roll": 0
+                      },
+                      "sceneMode": 3
+                    },
+                    "label": "line-2-4",
+                    "type": "polyline",
+                    "key": "2-2-4",
+                    "parentKey": "2-2"
+                  }
+                ]
+              },
+              {
+                "label": "线集合-3",
+                "name": "polyline-3",
+                "key": "2-3",
+                "type": "polylineGroup",
+                "children": [
+                  {
+                    "url": "./data/s3mLibrary/newTree/001_Platanus.s3mb",
+                    "options": {
+                      "id": "polyline-3-0-addSymbol",
+                      "position": {
+                        "x": -2121664.905356829,
+                        "y": 4448139.115222253,
+                        "z": 4035287.7630263274
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "hpr": {
+                        "heading": 0.017453292519943295,
+                        "pitch": 0,
+                        "roll": 0
+                      },
+                      "sceneMode": 3
+                    },
+                    "label": "line-3-0",
+                    "type": "polyline",
+                    "key": "2-3-0",
+                    "parentKey": "2-3"
+                  },
+                  {
+                    "url": "./data/s3mLibrary/newTree/001_Platanus.s3mb",
+                    "options": {
+                      "id": "polyline-3-1-addSymbol",
+                      "position": {
+                        "x": -2121672.8772251834,
+                        "y": 4448135.365939717,
+                        "z": 4035287.6839656397
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "hpr": {
+                        "heading": 0.017453292519943295,
+                        "pitch": 0,
+                        "roll": 0
+                      },
+                      "sceneMode": 3
+                    },
+                    "label": "line-3-1",
+                    "type": "polyline",
+                    "key": "2-3-1",
+                    "parentKey": "2-3"
+                  },
+                  {
+                    "url": "./data/s3mLibrary/newTree/001_Platanus.s3mb",
+                    "options": {
+                      "id": "polyline-3-2-addSymbol",
+                      "position": {
+                        "x": -2121680.849095116,
+                        "y": 4448131.616660513,
+                        "z": 4035287.6049079937
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "hpr": {
+                        "heading": 0.017453292519943295,
+                        "pitch": 0,
+                        "roll": 0
+                      },
+                      "sceneMode": 3
+                    },
+                    "label": "line-3-2",
+                    "type": "polyline",
+                    "key": "2-3-2",
+                    "parentKey": "2-3"
+                  },
+                  {
+                    "url": "./data/s3mLibrary/newTree/001_Platanus.s3mb",
+                    "options": {
+                      "id": "polyline-3-3-addSymbol",
+                      "position": {
+                        "x": -2121688.8209651094,
+                        "y": 4448127.867381472,
+                        "z": 4035287.5258504893
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "hpr": {
+                        "heading": 0.017453292519943295,
+                        "pitch": 0,
+                        "roll": 0
+                      },
+                      "sceneMode": 3
+                    },
+                    "label": "line-3-3",
+                    "type": "polyline",
+                    "key": "2-3-3",
+                    "parentKey": "2-3"
+                  },
+                  {
+                    "url": "./data/s3mLibrary/newTree/001_Platanus.s3mb",
+                    "options": {
+                      "id": "polyline-3-4-addSymbol",
+                      "position": {
+                        "x": -2121696.7928299983,
+                        "y": 4448124.11809175,
+                        "z": 4035287.4467832283
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "hpr": {
+                        "heading": 0.017453292519943295,
+                        "pitch": 0,
+                        "roll": 0
+                      },
+                      "sceneMode": 3
+                    },
+                    "label": "line-3-4",
+                    "type": "polyline",
+                    "key": "2-3-4",
+                    "parentKey": "2-3"
+                  }
+                ]
+              },
+              {
+                "label": "线集合-4",
+                "name": "polyline-4",
+                "key": "2-4",
+                "type": "polylineGroup",
+                "children": [
+                  {
+                    "url": "./data/s3mLibrary/newTree/020_Salix.s3mb",
+                    "options": {
+                      "id": "polyline-4-0-addSymbol",
+                      "position": {
+                        "x": -2121627.009881221,
+                        "y": 4448128.103013948,
+                        "z": 4035319.718636256
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "hpr": {
+                        "heading": 0.017453292519943295,
+                        "pitch": 0,
+                        "roll": 0
+                      },
+                      "sceneMode": 3
+                    },
+                    "label": "line-4-0",
+                    "type": "polyline",
+                    "key": "2-4-0",
+                    "parentKey": "2-4"
+                  },
+                  {
+                    "url": "./data/s3mLibrary/newTree/020_Salix.s3mb",
+                    "options": {
+                      "id": "polyline-4-1-addSymbol",
+                      "position": {
+                        "x": -2121629.256286034,
+                        "y": 4448133.003070764,
+                        "z": 4035313.164625509
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "hpr": {
+                        "heading": 0.017453292519943295,
+                        "pitch": 0,
+                        "roll": 0
+                      },
+                      "sceneMode": 3
+                    },
+                    "label": "line-4-1",
+                    "type": "polyline",
+                    "key": "2-4-1",
+                    "parentKey": "2-4"
+                  },
+                  {
+                    "url": "./data/s3mLibrary/newTree/020_Salix.s3mb",
+                    "options": {
+                      "id": "polyline-4-2-addSymbol",
+                      "position": {
+                        "x": -2121631.5044402755,
+                        "y": 4448137.906795369,
+                        "z": 4035306.613964582
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "hpr": {
+                        "heading": 0.017453292519943295,
+                        "pitch": 0,
+                        "roll": 0
+                      },
+                      "sceneMode": 3
+                    },
+                    "label": "line-4-2",
+                    "type": "polyline",
+                    "key": "2-4-2",
+                    "parentKey": "2-4"
+                  },
+                  {
+                    "url": "./data/s3mLibrary/newTree/020_Salix.s3mb",
+                    "options": {
+                      "id": "polyline-4-3-addSymbol",
+                      "position": {
+                        "x": -2121633.752657283,
+                        "y": 4448142.810651566,
+                        "z": 4035300.063423834
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "hpr": {
+                        "heading": 0.017453292519943295,
+                        "pitch": 0,
+                        "roll": 0
+                      },
+                      "sceneMode": 3
+                    },
+                    "label": "line-4-3",
+                    "type": "polyline",
+                    "key": "2-4-3",
+                    "parentKey": "2-4"
+                  },
+                  {
+                    "url": "./data/s3mLibrary/newTree/020_Salix.s3mb",
+                    "options": {
+                      "id": "polyline-4-4-addSymbol",
+                      "position": {
+                        "x": -2121636.0008742744,
+                        "y": 4448147.714507728,
+                        "z": 4035293.512883051
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "hpr": {
+                        "heading": 0.017453292519943295,
+                        "pitch": 0,
+                        "roll": 0
+                      },
+                      "sceneMode": 3
+                    },
+                    "label": "line-4-4",
+                    "type": "polyline",
+                    "key": "2-4-4",
+                    "parentKey": "2-4"
+                  },
+                  {
+                    "url": "./data/s3mLibrary/newTree/020_Salix.s3mb",
+                    "options": {
+                      "id": "polyline-4-5-addSymbol",
+                      "position": {
+                        "x": -2121638.2506746147,
+                        "y": 4448152.621683495,
+                        "z": 4035286.965374046
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "hpr": {
+                        "heading": 0.017453292519943295,
+                        "pitch": 0,
+                        "roll": 0
+                      },
+                      "sceneMode": 3
+                    },
+                    "label": "line-4-5",
+                    "type": "polyline",
+                    "key": "2-4-5",
+                    "parentKey": "2-4"
+                  }
+                ]
+              },
+              {
+                "label": "线集合-5",
+                "name": "polyline-5",
+                "key": "2-5",
+                "type": "polylineGroup",
+                "children": [
+                  {
+                    "url": "./data/s3mLibrary/newTree/020_Salix.s3mb",
+                    "options": {
+                      "id": "polyline-5-0-addSymbol",
+                      "position": {
+                        "x": -2121654.3593699015,
+                        "y": 4448149.813858496,
+                        "z": 4035281.58824548
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "hpr": {
+                        "heading": 0.017453292519943295,
+                        "pitch": 0,
+                        "roll": 0
+                      },
+                      "sceneMode": 3
+                    },
+                    "label": "line-5-0",
+                    "type": "polyline",
+                    "key": "2-5-0",
+                    "parentKey": "2-5"
+                  },
+                  {
+                    "url": "./data/s3mLibrary/newTree/020_Salix.s3mb",
+                    "options": {
+                      "id": "polyline-5-1-addSymbol",
+                      "position": {
+                        "x": -2121662.984818557,
+                        "y": 4448145.672960579,
+                        "z": 4035281.5952441343
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "hpr": {
+                        "heading": 0.017453292519943295,
+                        "pitch": 0,
+                        "roll": 0
+                      },
+                      "sceneMode": 3
+                    },
+                    "label": "line-5-1",
+                    "type": "polyline",
+                    "key": "2-5-1",
+                    "parentKey": "2-5"
+                  },
+                  {
+                    "url": "./data/s3mLibrary/newTree/020_Salix.s3mb",
+                    "options": {
+                      "id": "polyline-5-2-addSymbol",
+                      "position": {
+                        "x": -2121671.610269177,
+                        "y": 4448141.532066771,
+                        "z": 4035281.6022465406
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "hpr": {
+                        "heading": 0.017453292519943295,
+                        "pitch": 0,
+                        "roll": 0
+                      },
+                      "sceneMode": 3
+                    },
+                    "label": "line-5-2",
+                    "type": "polyline",
+                    "key": "2-5-2",
+                    "parentKey": "2-5"
+                  },
+                  {
+                    "url": "./data/s3mLibrary/newTree/020_Salix.s3mb",
+                    "options": {
+                      "id": "polyline-5-3-addSymbol",
+                      "position": {
+                        "x": -2121680.235719996,
+                        "y": 4448137.391173378,
+                        "z": 4035281.6092493273
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "hpr": {
+                        "heading": 0.017453292519943295,
+                        "pitch": 0,
+                        "roll": 0
+                      },
+                      "sceneMode": 3
+                    },
+                    "label": "line-5-3",
+                    "type": "polyline",
+                    "key": "2-5-3",
+                    "parentKey": "2-5"
+                  },
+                  {
+                    "url": "./data/s3mLibrary/newTree/020_Salix.s3mb",
+                    "options": {
+                      "id": "polyline-5-4-addSymbol",
+                      "position": {
+                        "x": -2121688.8611258925,
+                        "y": 4448133.250185805,
+                        "z": 4035281.616166101
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "hpr": {
+                        "heading": 0.017453292519943295,
+                        "pitch": 0,
+                        "roll": 0
+                      },
+                      "sceneMode": 3
+                    },
+                    "label": "line-5-4",
+                    "type": "polyline",
+                    "key": "2-5-4",
+                    "parentKey": "2-5"
+                  },
+                  {
+                    "url": "./data/s3mLibrary/newTree/020_Salix.s3mb",
+                    "options": {
+                      "id": "polyline-5-5-addSymbol",
+                      "position": {
+                        "x": -2121697.4865717697,
+                        "y": 4448129.1092820475,
+                        "z": 4035281.6231594225
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "hpr": {
+                        "heading": 0.017453292519943295,
+                        "pitch": 0,
+                        "roll": 0
+                      },
+                      "sceneMode": 3
+                    },
+                    "label": "line-5-5",
+                    "type": "polyline",
+                    "key": "2-5-5",
+                    "parentKey": "2-5"
+                  },
+                  {
+                    "url": "./data/s3mLibrary/newTree/020_Salix.s3mb",
+                    "options": {
+                      "id": "polyline-5-6-addSymbol",
+                      "position": {
+                        "x": -2121706.1120257913,
+                        "y": 4448124.968395368,
+                        "z": 4035281.630168341
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "hpr": {
+                        "heading": 0.017453292519943295,
+                        "pitch": 0,
+                        "roll": 0
+                      },
+                      "sceneMode": 3
+                    },
+                    "label": "line-5-6",
+                    "type": "polyline",
+                    "key": "2-5-6",
+                    "parentKey": "2-5"
+                  },
+                  {
+                    "url": "./data/s3mLibrary/newTree/020_Salix.s3mb",
+                    "options": {
+                      "id": "polyline-5-7-addSymbol",
+                      "position": {
+                        "x": -2121714.737469403,
+                        "y": 4448120.827486858,
+                        "z": 4035281.637157323
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "hpr": {
+                        "heading": 0.017453292519943295,
+                        "pitch": 0,
+                        "roll": 0
+                      },
+                      "sceneMode": 3
+                    },
+                    "label": "line-5-7",
+                    "type": "polyline",
+                    "key": "2-5-7",
+                    "parentKey": "2-5"
+                  },
+                  {
+                    "url": "./data/s3mLibrary/newTree/020_Salix.s3mb",
+                    "options": {
+                      "id": "polyline-5-8-addSymbol",
+                      "position": {
+                        "x": -2121723.362886667,
+                        "y": 4448116.686523104,
+                        "z": 4035281.6440958516
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "hpr": {
+                        "heading": 0.017453292519943295,
+                        "pitch": 0,
+                        "roll": 0
+                      },
+                      "sceneMode": 3
+                    },
+                    "label": "line-5-8",
+                    "type": "polyline",
+                    "key": "2-5-8",
+                    "parentKey": "2-5"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": "区域添加",
+            "key": "3",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+}
