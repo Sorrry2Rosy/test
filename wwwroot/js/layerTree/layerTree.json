@@ -1,0 +1,114 @@
+[
+  {
+    "key": "1",
+    "label": "S3M图层",
+    "children": [
+      {
+        "label": "地面",
+        "aliasKey": "Ground@CBD",
+        "key": "1-0",
+        "type": "s3m",
+        "isEdit": false
+      },
+      {
+        "label": "高架桥",
+        "aliasKey": "Bridge@CBD",
+        "key": "1-1",
+        "type": "s3m",
+        "isEdit": false
+      },
+      {
+        "label": "楼房",
+        "aliasKey": "Building@CBD",
+        "key": "1-2",
+        "type": "s3m",
+        "isEdit": false
+      },
+      {
+        "label": "绿化树木",
+        "aliasKey": "Tree@CBD",
+        "key": "1-3",
+        "type": "s3m",
+        "isEdit": false
+      },
+      {
+        "label": "设施小品",
+        "aliasKey": "Xiaopin@CBD",
+        "key": "1-5",
+        "type": "s3m",
+        "isEdit": false
+      },
+      {
+        "label": "湖与广场",
+        "aliasKey": "newLayerGroup-1",
+        "key": "1-8",
+        "type": "s3mGroup",
+        "isEdit": false,
+        "children": [
+          {
+            "label": "广场",
+            "aliasKey": "Ground2@CBD",
+            "key": "1-4",
+            "type": "s3m",
+            "isEdit": false,
+            "layerGroupName": "newLayerGroup-1"
+          },
+          {
+            "label": "人工湖",
+            "aliasKey": "Lake@CBD",
+            "key": "1-6",
+            "type": "s3m",
+            "isEdit": false,
+            "layerGroupName": "newLayerGroup-1"
+          }
+        ]
+      }
+    ],
+    "isRoot": true
+  },
+  {
+    "key": "2",
+    "label": "影像图层",
+    "children": [
+      {
+        "label": "四川影像",
+        "aliasKey": "MosaicResult",
+        "key": "2-3",
+        "type": "imagery",
+        "isEdit": false
+      },
+      {
+        "label": "必应底图",
+        "aliasKey": "必应底图",
+        "key": "2-2",
+        "type": "imagery",
+        "isEdit": false
+      },
+      {
+        "label": "经纬底图",
+        "aliasKey": "经纬底图",
+        "key": "2-1",
+        "type": "imagery",
+        "isEdit": false
+      }
+    ]
+  },
+  {
+    "key": "3",
+    "label": "地形图层",
+    "children": [
+      {
+        "label": "四川地形",
+        "aliasKey": "DatasetDEM",
+        "key": "3-0",
+        "type": "terrain",
+        "isEdit": false
+      }
+    ]
+  },
+  {
+    "key": "4",
+    "label": "移除图层",
+    "children": []
+  }
+]
