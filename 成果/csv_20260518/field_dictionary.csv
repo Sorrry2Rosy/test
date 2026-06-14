@@ -1,0 +1,13 @@
+﻿field_en,field_cn
+fire_id,起火点编号
+fire_scene,起火场景
+poi_id,POI编号
+poi_type,POI类别
+poi_name,POI名称
+straight_dist_m,直线距离(米)
+network_dist_m,路网距离(米)
+travel_time_est_min,估算通行时间(分钟)
+rank_network,按路网距离排序
+rank_straight,按直线距离排序
+solve_status,求解状态
+run_time,生成时间
