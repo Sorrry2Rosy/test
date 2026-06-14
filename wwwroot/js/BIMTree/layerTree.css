@@ -1,0 +1,125 @@
+html, body, #Container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+
+}
+
+.vue-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 400px;
+    height: fit-content;
+    z-index: 100;
+}
+
+/* 图层面板 */
+.layer-tree-container{
+    background: rgba(42,42,42,0.9);
+}
+
+/* header */
+.tree-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+.tree-header-title{
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 24px;
+}
+.tree-header-close{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+/* 列表内容 */
+.tree-content{
+    margin-top: 10px;
+}
+
+/* footer */
+.tree-footer-save{
+    margin-left: 336px;
+    margin-bottom: 20px;
+}
+
+/* 图层列表选项 */
+.n-tree-node-content__text{
+    color: rgba(255, 255, 255, 0.85);
+}
+.n-tree.n-tree--block-line .n-tree-node:not(.n-tree-node--disabled):hover {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+.n-tree.n-tree--block-line .n-tree-node:not(.n-tree-node--disabled).n-tree-node--pending{
+    background-color: rgba(255, 255, 255, 0.25);
+}
+.n-input{
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+.n-input .n-input__input-el, .n-input .n-input__textarea-el{
+    color: rgba(255, 255, 255, 0.85);
+}
+.n-input .n-input__border, .n-input .n-input__state-border{
+    border: 1px solid #3499E5;
+}
+.n-tree .n-tree-node-content .n-tree-node-content__suffix{
+    width: 100px;
+    display: flex;
+    justify-content: end;
+}
+/* :deep(.n-input):hover{
+    border: 1px solid #3499E5;
+} */
+/* 下拉框 */
+.n-dropdown-menu{
+    background: rgba(42,42,42,0.9);
+}
+.n-dropdown-option-body__label{
+    color: rgba(255, 255, 255, 0.85);
+}
+.n-dropdown-menu .n-dropdown-option .n-dropdown-option-body:not(.n-dropdown-option-body--disabled).n-dropdown-option-body--pending::before{
+    background-color:rgba(255, 255, 255, 0.25);
+}
+/* checkbox */
+.n-checkbox.n-checkbox--checked .n-checkbox-box, .n-checkbox.n-checkbox--indeterminate .n-checkbox-box{
+    background-color:#3499E5;
+}
+.n-checkbox .n-checkbox-box .n-checkbox-box__border{
+    border: 1px solid rgba(255, 255, 255, 0.04);
+}
+.n-checkbox.n-checkbox--checked .n-checkbox-box .n-checkbox-box__border, .n-checkbox.n-checkbox--indeterminate .n-checkbox-box .n-checkbox-box__border{
+    border: 1px solid #3499E5;
+}
+.n-checkbox .n-checkbox-box{
+    background-color:rgba(255, 255, 255, 0);
+}
+/* 下拉小三角 */
+.n-tree .n-tree-node-switcher .n-tree-node-switcher__icon{
+    color: rgba(255, 255, 255, 0.65);
+}
+/* 滚动条 */
+.n-scrollbar > .n-scrollbar-rail > .n-scrollbar-rail__scrollbar, .n-scrollbar + .n-scrollbar-rail > .n-scrollbar-rail__scrollbar{
+    background-color:rgba(255, 255, 255,0.25)
+}
+
+
+/* 图层列表选项 内容 避免过长 */
+.n-ellipsis{
+   width: 100%;
+}
+
+  
+/* :deep(.n-button) {
+  color: rgba(255, 255, 255, 0.15);
+}
+:deep(.n-button):hover {
+  color: rgba(255, 255, 255, 0.85);
+} */
