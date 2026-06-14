@@ -42,7 +42,7 @@ function onload(SuperMap3D) {
     console.log('[诊断] scenePromise 兑现，场景就绪');
     viewer.resolutionScale = window.devicePixelRatio;
 
-    // 加载高德底图
+    // 加载高德底图 //dasd
     viewer.imageryLayers.addImageryProvider(
       new SuperMap3D.UrlTemplateImageryProvider({
         url: "https://webst02.is.autonavi.com/appmaptile?style=6&x={x}&y={y}&z={z}",
