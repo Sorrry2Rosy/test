@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"http://localhost:8090/iserver/services/qq/rest/data\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\('Total datasets:', d.get\\('datasetCount',0\\)\\); [print\\(n\\) for n in d.get\\('datasetNames',[]\\)]\")",
+      "Bash(curl -s \"http://localhost:8090/iserver/services/qq/rest/data/datasources/name/DataSource_supermap/datasets/name/%E5%B9%B3%E9%9D%A2%E8%94%93%E5%BB%B6%E8%BE%B9%E7%95%8C_10min/features.json?returnContent=true&fromIndex=0&toIndex=5\")",
+      "Bash(curl -s \"http://localhost:8090/iserver/services/qq/rest/data/feature/0-4-0.json\")",
+      "Bash(curl -s \"http://localhost:8090/iserver/services/qq/rest/data/datasources/name/DataSource_supermap/datasets/name/%E5%B9%B3%E9%9D%A2%E8%94%93%E5%BB%B6%E8%BE%B9%E7%95%8C_10min.json\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d.get\\('prjCoordSys',{}\\), indent=2\\)\\)\")",
+      "Bash(curl -s \"http://localhost:8090/iserver/services/qq/rest/data/datasources/name/DataSource_supermap/datasets/name/%E9%AB%98%E5%8D%B1%E5%9B%BE_1.json\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); prj=d.get\\('datasetInfo',{}\\).get\\('prjCoordSys',{}\\); print\\('epsgCode:', prj.get\\('epsgCode'\\)\\); print\\('name:', prj.get\\('name'\\)\\); print\\('type:', prj.get\\('type'\\)\\)\")",
+      "Bash(curl -s \"http://localhost:8090/iserver/services/qq/rest/data/feature/0-4-0.json?targetEpsgCode=4326\")",
+      "Bash(curl -s \"http://localhost:8090/iserver/services/qq/rest/data/datasources/name/DataSource_supermap/datasets/name/BIM_3D%E7%81%AB%E7%90%83_15m.json\")",
+      "Bash(curl -s \"http://localhost:8090/iserver/services/qq/rest/data/datasources/name/DataSource_supermap/datasets/name/BIM_3D%E7%81%AB%E7%90%83_30m.json\")",
+      "Bash(curl -s \"http://localhost:8090/iserver/services/qq/rest/data/datasources/name/DataSource_supermap/datasets/name/BIM_3D%E7%81%AB%E7%90%83_60m.json\")",
+      "Bash(curl -s \"http://localhost:8090/iserver/services/qq/rest/data/datasources/name/DataSource_supermap/datasets/name/BIM_3D%E5%8F%97%E7%81%BE%E6%9E%84%E4%BB%B6.json\")",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code} \\(%{size_download} bytes\\)\" \"https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.11.0/proj4.js\")",
+      "Bash(git config *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git branch *)",
+      "Bash(git remote *)",
+      "Bash(git rm *)"
+    ]
+  }
+}

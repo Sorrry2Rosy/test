@@ -1,0 +1,7 @@
+{
+  // 禁用 appsettings.json 的远程架构拉取（解决国内网络无法访问 json.schemastore.org 的警告）
+  "json.schemaDownload.enable": false,
+
+  // 解决 MSB3026/3021 文件锁定：构建前自动杀掉旧进程
+  "dotnet.preferCSharpExtension": true
+}

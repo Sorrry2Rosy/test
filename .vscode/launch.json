@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "tasks": [
+        {
+            "label": "kill-old-process",
+            "type": "shell",
+            "command": "taskkill",
+            "args": ["/f", "/im", "new try world.exe", "2>nul"],
+            "presentation": { "echo": false, "reveal": "never" },
+            "problemMatcher": []
+        }
+    ],
+    "configurations": [
+        {
+            "name": "C#: new try world [Default Configuration]",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/new try world.csproj",
+            "preLaunchTask": "kill-old-process",
+            "launchSettingsProfile": "http"
+        }
+    ]
+}
